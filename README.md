@@ -2,6 +2,7 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/NicolasJBM/fmtR/workflows/R-CMD-check/badge.svg)](https://github.com/NicolasJBM/fmtR/actions)
+[![CodeFactor](https://www.codefactor.io/repository/github/nicolasjbm/fmtr/badge)](https://www.codefactor.io/repository/github/nicolasjbm/fmtr)
 <!-- badges: end -->
 
 # fmtR <img src="man/figures/logo.svg" align="right" width="120" />
