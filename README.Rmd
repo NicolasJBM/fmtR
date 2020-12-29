@@ -6,6 +6,8 @@ output: github_document
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/NicolasJBM/fmtR/workflows/R-CMD-check/badge.svg)](https://github.com/NicolasJBM/fmtR/actions)
 [![CodeFactor](https://www.codefactor.io/repository/github/nicolasjbm/fmtr/badge)](https://www.codefactor.io/repository/github/nicolasjbm/fmtr)
+[![License: GPL3](https://img.shields.io/badge/License-GPL3.0-yellow.svg)](https://opensource.org/licenses/GPL-3.0)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
 
@@ -19,7 +21,7 @@ knitr::opts_chunk$set(
 
 # fmtR <img src="man/figures/logo.svg" align="right" width="120" />
 
-Formating numbers for reporting.
+Toolbox to format and report numbers.
 
 
 
@@ -30,13 +32,10 @@ This package contains a few functions to format numbers embedded in presentation
 
 ## Installation
 
-Before you can install *fmtR* itself, you will also need to install from CRAN the following R packages:  
+Before you can install *fmtR* itself, you will need to install from CRAN the following R packages:  
 
 ```{r, eval = FALSE}
-install.packages("knitr")
-install.packages("dplyr")
-install.packages("tibble")
-install.packages("stats")
+install.packages(c("knitr", "dplyr", "tibble", "stats"), dependencies = TRUE)
 ```
 
 Then, install *fmtR* from its GitHub public repository:  
@@ -153,4 +152,4 @@ fmtR::report_estimate(
 
 ## Toolboxes
 
-The toolbox *[modlR](https://github.com/NicolasJBM/modlR)* needs *fmtR* to format moderated mediations reports. *fmtR* is also very useful in combinations with *[writR](https://github.com/NicolasJBM/writR)* and *[teachR](https://github.com/NicolasJBM/teachR)*.
+The toolbox *[modlR](https://github.com/NicolasJBM/modlR)* needs *fmtR* to format moderated mediations reports. *fmtR* is also very useful in combination with *[writR](https://github.com/NicolasJBM/writR)* and *[teachR](https://github.com/NicolasJBM/teachR)*.
